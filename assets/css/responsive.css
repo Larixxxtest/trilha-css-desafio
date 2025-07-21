@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .banner h1 {
+      font-size: 2rem;
+    }
+  
+    .banner p {
+      font-size: 1rem;
+    }
+  
+    #transform-world p {
+      font-size: 1.5rem;
+    }
+  
+    #course-content,
+    #professional-challenges {
+      width: 100%;
+    }
+  
+    #course-content .modules-list .module {
+      width: 100%;
+      padding: 16px;
+      border-radius: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner .logo {
+      height: 180px;
+      width: 180px;
+    }
+  
+    .banner .banner-content button {
+      padding: 12px 24px;
+      font-size: 0.9rem;
+    }
+  
+    #transform-world p {
+      font-size: 1.25rem;
+    }
+  }
